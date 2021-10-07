@@ -1,0 +1,25 @@
+.App {
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 3rem;
+}
+
+.comments {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.comment-area {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  .comment_textarea {
+    border: 0;
+  }
+}

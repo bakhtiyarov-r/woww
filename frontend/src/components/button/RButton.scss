@@ -1,0 +1,16 @@
+.button {
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(26, 26, 27, 0.1);
+  }
+  &_text {
+    font-size: 12px;
+    font-weight: 400;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+  }
+}

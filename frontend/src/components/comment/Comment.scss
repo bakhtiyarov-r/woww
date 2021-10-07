@@ -1,0 +1,57 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 16px;
+    &__children {
+        display: flex;
+        flex-direction: column;
+    }
+    &_child {
+        margin-left: 20px;
+    }
+    &_line {
+        position: absolute;
+        left: 10px;
+        top: 25px;
+        height: calc(100% - 25px);
+        width: 3px;
+        border-right: 1px solid rgb(237, 239, 241);
+    }
+    &_avatar {
+        height: 20px;
+        pointer-events: none;
+    }
+    &_head {
+        display: flex;
+        align-items: center;
+    }
+    &_author {
+        margin-left: 6px;
+        font-family: Noto Sans,Arial,sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+    &_wrap {
+        padding-left: 34px;
+    }
+    &_content {
+        font-family: Noto Sans,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        word-break: break-word;
+        overflow: auto;
+    }
+    &_textarea {
+        border-left: 1px solid #edeff1;
+    }
+    &_created {
+        margin-left: 6px;
+        font-family: Noto Sans,Arial,sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+}
